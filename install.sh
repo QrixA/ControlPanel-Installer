@@ -7,7 +7,7 @@ set -e
 # 
 #         Pterodactyl-AutoThemes Installation
 #
-#         Created and maintained by Ferks-FK
+#         Created and maintained by NotAmelia
 #
 #            Protected by MIT License
 #
@@ -24,8 +24,8 @@ curl --silent \
 
 # Variables #
 SCRIPT_RELEASE="$(get_release)"
-SUPPORT_LINK="https://discord.gg/buDBbSGJmQ"
-WIKI_LINK="https://github.com/Ferks-FK/ControlPanel-Installer/wiki"
+SUPPORT_LINK="https://discord.gg/jvbjX7CADm"
+WIKI_LINK="wiki link coming soon"
 GITHUB_URL="https://raw.githubusercontent.com/Ferks-FK/ControlPanel.gg-Installer/$SCRIPT_RELEASE"
 RANDOM_PASSWORD="$(openssl rand -base64 32)"
 MYSQL_PASSWORD=false
